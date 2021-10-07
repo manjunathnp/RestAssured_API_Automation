@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EmployeesRestAPISuite">
+
+	<listeners>
+		<listener class-name="com.LibraryAPI.utils.Listeners" />
+	</listeners>
+	
+	<test name="EmployeesRestAPITest">
+		<classes>
+			<class name="com.LibraryAPI.testCases.TC_001_GetAllBooks" />
+			<class name="com.LibraryAPI.testCases.TC_002_GetSingleBook" />
+			<class name="com.LibraryAPI.testCases.TC_003_AddBook" />
+			<class name="com.LibraryAPI.testCases.TC_004_UpdateBook" />
+			<class name="com.LibraryAPI.testCases.TC_005_DeleteBook" />
+		</classes>
+	</test>
+</suite> 

@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  EmployeesRestAPITest</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>EmployeesRestAPITest</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 07 15:13:20 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>6 seconds (6542 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.checkContentType_addBook()'><b>checkContentType_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.checkContentType_deleteBook()'><b>checkContentType_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_001_GetAllBooks.checkContentType_getAllBooks()'><b>checkContentType_getAllBooks</b><br>Test class: com.LibraryAPI.testCases.TC_001_GetAllBooks</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_002_GetSingleBook.checkContentType_getSingleBook()'><b>checkContentType_getSingleBook</b><br>Test class: com.LibraryAPI.testCases.TC_002_GetSingleBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.checkContentType_updateBook()'><b>checkContentType_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.checkResponseTime_addBook()'><b>checkResponseTime_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.checkResponseTime_deleteBook()'><b>checkResponseTime_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_001_GetAllBooks.checkResponseTime_getAllBooks()'><b>checkResponseTime_getAllBooks</b><br>Test class: com.LibraryAPI.testCases.TC_001_GetAllBooks</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_002_GetSingleBook.checkResponseTime_getSingleBook()'><b>checkResponseTime_getSingleBook</b><br>Test class: com.LibraryAPI.testCases.TC_002_GetSingleBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.checkResponseTime_updateBook()'><b>checkResponseTime_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.checkResposeBody_addBook()'><b>checkResposeBody_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.checkResposeBody_deleteBook()'><b>checkResposeBody_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_001_GetAllBooks.checkResposeBody_getAllBooks()'><b>checkResposeBody_getAllBooks</b><br>Test class: com.LibraryAPI.testCases.TC_001_GetAllBooks</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_002_GetSingleBook.checkResposeBody_getSingleBook()'><b>checkResposeBody_getSingleBook</b><br>Test class: com.LibraryAPI.testCases.TC_002_GetSingleBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.checkResposeBody_updateBook()'><b>checkResposeBody_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.checkStatusCode_addBook()'><b>checkStatusCode_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.checkStatusCode_deleteBook()'><b>checkStatusCode_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_001_GetAllBooks.checkStatusCode_getAllBooks()'><b>checkStatusCode_getAllBooks</b><br>Test class: com.LibraryAPI.testCases.TC_001_GetAllBooks</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_002_GetSingleBook.checkStatusCode_getSingleBook()'><b>checkStatusCode_getSingleBook</b><br>Test class: com.LibraryAPI.testCases.TC_002_GetSingleBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.checkStatusCode_updateBook()'><b>checkStatusCode_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.checkStatusLine_addBook()'><b>checkStatusLine_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.checkStatusLine_deleteBook()'><b>checkStatusLine_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_001_GetAllBooks.checkStatusLine_getAllBooks()'><b>checkStatusLine_getAllBooks</b><br>Test class: com.LibraryAPI.testCases.TC_001_GetAllBooks</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_002_GetSingleBook.checkStatusLine_getSingleBook()'><b>checkStatusLine_getSingleBook</b><br>Test class: com.LibraryAPI.testCases.TC_002_GetSingleBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.checkStatusLine_updateBook()'><b>checkStatusLine_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.checkserverType_addBook()'><b>checkserverType_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.checkserverType_deleteBook()'><b>checkserverType_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_001_GetAllBooks.checkserverType_getAllBooks()'><b>checkserverType_getAllBooks</b><br>Test class: com.LibraryAPI.testCases.TC_001_GetAllBooks</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_002_GetSingleBook.checkserverType_getSingleBook()'><b>checkserverType_getSingleBook</b><br>Test class: com.LibraryAPI.testCases.TC_002_GetSingleBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.checkserverType_updateBook()'><b>checkserverType_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_003_AddBook.validateAddedBook_addBook()'><b>validateAddedBook_addBook</b><br>Test class: com.LibraryAPI.testCases.TC_003_AddBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_005_DeleteBook.validateDeletedBook_deleteBook()'><b>validateDeletedBook_deleteBook</b><br>Test class: com.LibraryAPI.testCases.TC_005_DeleteBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d</td></tr>
+<tr>
+<td title='com.LibraryAPI.testCases.TC_004_UpdateBook.validateUpdatedBook_updateBook()'><b>validateUpdatedBook_updateBook</b><br>Test class: com.LibraryAPI.testCases.TC_004_UpdateBook</td>
+<td></td>
+<td>0</td>
+<td>com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-07T15:13:20 IST" name="EmployeesRestAPISuite" finished-at="2021-10-07T15:13:26 IST" duration-ms="6542">
+    <groups>
+    </groups>
+    <test started-at="2021-10-07T15:13:20 IST" name="EmployeesRestAPITest" finished-at="2021-10-07T15:13:26 IST" duration-ms="6542">
+      <class name="com.LibraryAPI.testCases.TC_002_GetSingleBook">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:23 IST" name="setUp" finished-at="2021-10-07T15:13:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:23 IST" name="getSingleBook" finished-at="2021-10-07T15:13:23 IST" duration-ms="240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSingleBook -->
+        <test-method signature="checkContentType_getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:23 IST" name="checkContentType_getSingleBook" finished-at="2021-10-07T15:13:23 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType_getSingleBook -->
+        <test-method signature="checkResponseTime_getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:23 IST" name="checkResponseTime_getSingleBook" finished-at="2021-10-07T15:13:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime_getSingleBook -->
+        <test-method signature="checkResposeBody_getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:23 IST" name="checkResposeBody_getSingleBook" finished-at="2021-10-07T15:13:24 IST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody_getSingleBook -->
+        <test-method signature="checkStatusCode_getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:24 IST" name="checkStatusCode_getSingleBook" finished-at="2021-10-07T15:13:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_getSingleBook -->
+        <test-method signature="checkStatusLine_getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:24 IST" name="checkStatusLine_getSingleBook" finished-at="2021-10-07T15:13:24 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine_getSingleBook -->
+        <test-method signature="checkserverType_getSingleBook()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:24 IST" name="checkserverType_getSingleBook" finished-at="2021-10-07T15:13:24 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType_getSingleBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LibraryAPI.testCases.TC_002_GetSingleBook@3d51f06e]" started-at="2021-10-07T15:13:24 IST" name="tearDown" finished-at="2021-10-07T15:13:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LibraryAPI.testCases.TC_002_GetSingleBook -->
+      <class name="com.LibraryAPI.testCases.TC_005_DeleteBook">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="setUp" finished-at="2021-10-07T15:13:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="deleteBook()[pri:0, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBook -->
+        <test-method signature="checkStatusCode_deleteBook()[pri:1, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="checkStatusCode_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_deleteBook -->
+        <test-method signature="checkResposeBody_deleteBook()[pri:2, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="checkResposeBody_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody_deleteBook -->
+        <test-method signature="validateDeletedBook_deleteBook()[pri:3, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="validateDeletedBook_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeletedBook_deleteBook -->
+        <test-method signature="checkResponseTime_deleteBook()[pri:4, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="checkResponseTime_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime_deleteBook -->
+        <test-method signature="checkContentType_deleteBook()[pri:5, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="checkContentType_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType_deleteBook -->
+        <test-method signature="checkserverType_deleteBook()[pri:6, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="checkserverType_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType_deleteBook -->
+        <test-method signature="checkStatusLine_deleteBook()[pri:7, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="checkStatusLine_deleteBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine_deleteBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LibraryAPI.testCases.TC_005_DeleteBook@3427b02d]" started-at="2021-10-07T15:13:26 IST" name="tearDown" finished-at="2021-10-07T15:13:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LibraryAPI.testCases.TC_005_DeleteBook -->
+      <class name="com.LibraryAPI.testCases.TC_004_UpdateBook">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:25 IST" name="setUp" finished-at="2021-10-07T15:13:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="updateBook()[pri:0, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:25 IST" name="updateBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBook -->
+        <test-method signature="checkStatusCode_updateBook()[pri:1, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:25 IST" name="checkStatusCode_updateBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_updateBook -->
+        <test-method signature="checkResposeBody_updateBook()[pri:2, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:25 IST" name="checkResposeBody_updateBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody_updateBook -->
+        <test-method signature="validateUpdatedBook_updateBook()[pri:3, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:25 IST" name="validateUpdatedBook_updateBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdatedBook_updateBook -->
+        <test-method signature="checkResponseTime_updateBook()[pri:4, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:26 IST" name="checkResponseTime_updateBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime_updateBook -->
+        <test-method signature="checkContentType_updateBook()[pri:5, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:26 IST" name="checkContentType_updateBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType_updateBook -->
+        <test-method signature="checkserverType_updateBook()[pri:6, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:26 IST" name="checkserverType_updateBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType_updateBook -->
+        <test-method signature="checkStatusLine_updateBook()[pri:7, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:26 IST" name="checkStatusLine_updateBook" finished-at="2021-10-07T15:13:26 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine_updateBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LibraryAPI.testCases.TC_004_UpdateBook@28eaa59a]" started-at="2021-10-07T15:13:26 IST" name="tearDown" finished-at="2021-10-07T15:13:26 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LibraryAPI.testCases.TC_004_UpdateBook -->
+      <class name="com.LibraryAPI.testCases.TC_001_GetAllBooks">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:20 IST" name="setUp" finished-at="2021-10-07T15:13:20 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:20 IST" name="getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBooks -->
+        <test-method signature="checkContentType_getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="checkContentType_getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType_getAllBooks -->
+        <test-method signature="checkResponseTime_getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="checkResponseTime_getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime_getAllBooks -->
+        <test-method signature="checkResposeBody_getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="checkResposeBody_getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="591" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody_getAllBooks -->
+        <test-method signature="checkStatusCode_getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="checkStatusCode_getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_getAllBooks -->
+        <test-method signature="checkStatusLine_getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="checkStatusLine_getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine_getAllBooks -->
+        <test-method signature="checkserverType_getAllBooks()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="checkserverType_getAllBooks" finished-at="2021-10-07T15:13:23 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType_getAllBooks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LibraryAPI.testCases.TC_001_GetAllBooks@481a996b]" started-at="2021-10-07T15:13:23 IST" name="tearDown" finished-at="2021-10-07T15:13:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LibraryAPI.testCases.TC_001_GetAllBooks -->
+      <class name="com.LibraryAPI.testCases.TC_003_AddBook">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:24 IST" name="setUp" finished-at="2021-10-07T15:13:24 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="addBook()[pri:0, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:24 IST" name="addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBook -->
+        <test-method signature="checkStatusCode_addBook()[pri:1, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="checkStatusCode_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode_addBook -->
+        <test-method signature="checkResposeBody_addBook()[pri:2, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="checkResposeBody_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResposeBody_addBook -->
+        <test-method signature="validateAddedBook_addBook()[pri:3, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="validateAddedBook_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddedBook_addBook -->
+        <test-method signature="checkResponseTime_addBook()[pri:4, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="checkResponseTime_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime_addBook -->
+        <test-method signature="checkContentType_addBook()[pri:5, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="checkContentType_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType_addBook -->
+        <test-method signature="checkserverType_addBook()[pri:6, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="checkserverType_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkserverType_addBook -->
+        <test-method signature="checkStatusLine_addBook()[pri:7, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="checkStatusLine_addBook" finished-at="2021-10-07T15:13:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine_addBook -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.LibraryAPI.testCases.TC_003_AddBook@7ed7259e]" started-at="2021-10-07T15:13:25 IST" name="tearDown" finished-at="2021-10-07T15:13:25 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.LibraryAPI.testCases.TC_003_AddBook -->
+    </test> <!-- EmployeesRestAPITest -->
+  </suite> <!-- EmployeesRestAPISuite -->
+</testng-results>

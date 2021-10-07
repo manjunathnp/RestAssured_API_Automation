@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-EmployeesRestAPISuite" class="navigator-link">
+              <span class="suite-name border-passed">EmployeesRestAPISuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-EmployeesRestAPISuite" class="navigator-link ">
+                    <span>C:\RestAPI\RestAssuredAPITesting_LibrarayAPI_Automation\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-EmployeesRestAPISuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-EmployeesRestAPISuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-EmployeesRestAPISuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-EmployeesRestAPISuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-EmployeesRestAPISuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-EmployeesRestAPISuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-EmployeesRestAPISuite" class="hide-methods passed suite-EmployeesRestAPISuite"> (hide)</a> <!-- hide-methods passed suite-EmployeesRestAPISuite -->
+                      <a href="#" panel-name="suite-EmployeesRestAPISuite" class="show-methods passed suite-EmployeesRestAPISuite"> (show)</a> <!-- show-methods passed suite-EmployeesRestAPISuite -->
+                    </span>
+                    <div class="method-list-content passed suite-EmployeesRestAPISuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="checkContentType_addBook">checkContentType_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="checkContentType_deleteBook">checkContentType_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_001_GetAllBooks" class="method navigator-link" hash-for-method="checkContentType_getAllBooks">checkContentType_getAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_002_GetSingleBook" class="method navigator-link" hash-for-method="checkContentType_getSingleBook">checkContentType_getSingleBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="checkContentType_updateBook">checkContentType_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="checkResponseTime_addBook">checkResponseTime_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="checkResponseTime_deleteBook">checkResponseTime_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_001_GetAllBooks" class="method navigator-link" hash-for-method="checkResponseTime_getAllBooks">checkResponseTime_getAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_002_GetSingleBook" class="method navigator-link" hash-for-method="checkResponseTime_getSingleBook">checkResponseTime_getSingleBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="checkResponseTime_updateBook">checkResponseTime_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="checkResposeBody_addBook">checkResposeBody_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="checkResposeBody_deleteBook">checkResposeBody_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_001_GetAllBooks" class="method navigator-link" hash-for-method="checkResposeBody_getAllBooks">checkResposeBody_getAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_002_GetSingleBook" class="method navigator-link" hash-for-method="checkResposeBody_getSingleBook">checkResposeBody_getSingleBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="checkResposeBody_updateBook">checkResposeBody_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="checkStatusCode_addBook">checkStatusCode_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="checkStatusCode_deleteBook">checkStatusCode_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_001_GetAllBooks" class="method navigator-link" hash-for-method="checkStatusCode_getAllBooks">checkStatusCode_getAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_002_GetSingleBook" class="method navigator-link" hash-for-method="checkStatusCode_getSingleBook">checkStatusCode_getSingleBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="checkStatusCode_updateBook">checkStatusCode_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="checkStatusLine_addBook">checkStatusLine_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="checkStatusLine_deleteBook">checkStatusLine_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_001_GetAllBooks" class="method navigator-link" hash-for-method="checkStatusLine_getAllBooks">checkStatusLine_getAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_002_GetSingleBook" class="method navigator-link" hash-for-method="checkStatusLine_getSingleBook">checkStatusLine_getSingleBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="checkStatusLine_updateBook">checkStatusLine_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="checkserverType_addBook">checkserverType_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="checkserverType_deleteBook">checkserverType_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_001_GetAllBooks" class="method navigator-link" hash-for-method="checkserverType_getAllBooks">checkserverType_getAllBooks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_002_GetSingleBook" class="method navigator-link" hash-for-method="checkserverType_getSingleBook">checkserverType_getSingleBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="checkserverType_updateBook">checkserverType_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_003_AddBook" class="method navigator-link" hash-for-method="validateAddedBook_addBook">validateAddedBook_addBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_005_DeleteBook" class="method navigator-link" hash-for-method="validateDeletedBook_deleteBook">validateDeletedBook_deleteBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EmployeesRestAPISuite" title="com.LibraryAPI.testCases.TC_004_UpdateBook" class="method navigator-link" hash-for-method="validateUpdatedBook_updateBook">validateUpdatedBook_updateBook</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-EmployeesRestAPISuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-EmployeesRestAPISuite" class="panel EmployeesRestAPISuite">
+          <div class="suite-EmployeesRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LibraryAPI.testCases.TC_001_GetAllBooks</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType_getAllBooks">
+                  </a> <!-- checkContentType_getAllBooks -->
+                  <span class="method-name">checkContentType_getAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime_getAllBooks">
+                  </a> <!-- checkResponseTime_getAllBooks -->
+                  <span class="method-name">checkResponseTime_getAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResposeBody_getAllBooks">
+                  </a> <!-- checkResposeBody_getAllBooks -->
+                  <span class="method-name">checkResposeBody_getAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode_getAllBooks">
+                  </a> <!-- checkStatusCode_getAllBooks -->
+                  <span class="method-name">checkStatusCode_getAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine_getAllBooks">
+                  </a> <!-- checkStatusLine_getAllBooks -->
+                  <span class="method-name">checkStatusLine_getAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType_getAllBooks">
+                  </a> <!-- checkserverType_getAllBooks -->
+                  <span class="method-name">checkserverType_getAllBooks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeesRestAPISuite-class-passed -->
+          <div class="suite-EmployeesRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LibraryAPI.testCases.TC_005_DeleteBook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType_deleteBook">
+                  </a> <!-- checkContentType_deleteBook -->
+                  <span class="method-name">checkContentType_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime_deleteBook">
+                  </a> <!-- checkResponseTime_deleteBook -->
+                  <span class="method-name">checkResponseTime_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResposeBody_deleteBook">
+                  </a> <!-- checkResposeBody_deleteBook -->
+                  <span class="method-name">checkResposeBody_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode_deleteBook">
+                  </a> <!-- checkStatusCode_deleteBook -->
+                  <span class="method-name">checkStatusCode_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine_deleteBook">
+                  </a> <!-- checkStatusLine_deleteBook -->
+                  <span class="method-name">checkStatusLine_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType_deleteBook">
+                  </a> <!-- checkserverType_deleteBook -->
+                  <span class="method-name">checkserverType_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeletedBook_deleteBook">
+                  </a> <!-- validateDeletedBook_deleteBook -->
+                  <span class="method-name">validateDeletedBook_deleteBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeesRestAPISuite-class-passed -->
+          <div class="suite-EmployeesRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LibraryAPI.testCases.TC_002_GetSingleBook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType_getSingleBook">
+                  </a> <!-- checkContentType_getSingleBook -->
+                  <span class="method-name">checkContentType_getSingleBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime_getSingleBook">
+                  </a> <!-- checkResponseTime_getSingleBook -->
+                  <span class="method-name">checkResponseTime_getSingleBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResposeBody_getSingleBook">
+                  </a> <!-- checkResposeBody_getSingleBook -->
+                  <span class="method-name">checkResposeBody_getSingleBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode_getSingleBook">
+                  </a> <!-- checkStatusCode_getSingleBook -->
+                  <span class="method-name">checkStatusCode_getSingleBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine_getSingleBook">
+                  </a> <!-- checkStatusLine_getSingleBook -->
+                  <span class="method-name">checkStatusLine_getSingleBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType_getSingleBook">
+                  </a> <!-- checkserverType_getSingleBook -->
+                  <span class="method-name">checkserverType_getSingleBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeesRestAPISuite-class-passed -->
+          <div class="suite-EmployeesRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LibraryAPI.testCases.TC_003_AddBook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType_addBook">
+                  </a> <!-- checkContentType_addBook -->
+                  <span class="method-name">checkContentType_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime_addBook">
+                  </a> <!-- checkResponseTime_addBook -->
+                  <span class="method-name">checkResponseTime_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResposeBody_addBook">
+                  </a> <!-- checkResposeBody_addBook -->
+                  <span class="method-name">checkResposeBody_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode_addBook">
+                  </a> <!-- checkStatusCode_addBook -->
+                  <span class="method-name">checkStatusCode_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine_addBook">
+                  </a> <!-- checkStatusLine_addBook -->
+                  <span class="method-name">checkStatusLine_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType_addBook">
+                  </a> <!-- checkserverType_addBook -->
+                  <span class="method-name">checkserverType_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateAddedBook_addBook">
+                  </a> <!-- validateAddedBook_addBook -->
+                  <span class="method-name">validateAddedBook_addBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeesRestAPISuite-class-passed -->
+          <div class="suite-EmployeesRestAPISuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.LibraryAPI.testCases.TC_004_UpdateBook</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkContentType_updateBook">
+                  </a> <!-- checkContentType_updateBook -->
+                  <span class="method-name">checkContentType_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResponseTime_updateBook">
+                  </a> <!-- checkResponseTime_updateBook -->
+                  <span class="method-name">checkResponseTime_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkResposeBody_updateBook">
+                  </a> <!-- checkResposeBody_updateBook -->
+                  <span class="method-name">checkResposeBody_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusCode_updateBook">
+                  </a> <!-- checkStatusCode_updateBook -->
+                  <span class="method-name">checkStatusCode_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkStatusLine_updateBook">
+                  </a> <!-- checkStatusLine_updateBook -->
+                  <span class="method-name">checkStatusLine_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkserverType_updateBook">
+                  </a> <!-- checkserverType_updateBook -->
+                  <span class="method-name">checkserverType_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpdatedBook_updateBook">
+                  </a> <!-- validateUpdatedBook_updateBook -->
+                  <span class="method-name">validateUpdatedBook_updateBook</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-EmployeesRestAPISuite-class-passed -->
+        </div> <!-- panel EmployeesRestAPISuite -->
+        <div panel-name="test-xml-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\RestAPI\RestAssuredAPITesting_LibrarayAPI_Automation\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;EmployeesRestAPISuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.LibraryAPI.utils.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;EmployeesRestAPITest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.LibraryAPI.testCases.TC_001_GetAllBooks&quot;/&gt;
+      &lt;class name=&quot;com.LibraryAPI.testCases.TC_002_GetSingleBook&quot;/&gt;
+      &lt;class name=&quot;com.LibraryAPI.testCases.TC_003_AddBook&quot;/&gt;
+      &lt;class name=&quot;com.LibraryAPI.testCases.TC_004_UpdateBook&quot;/&gt;
+      &lt;class name=&quot;com.LibraryAPI.testCases.TC_005_DeleteBook&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- EmployeesRestAPITest --&gt;
+&lt;/suite&gt; &lt;!-- EmployeesRestAPISuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for EmployeesRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">EmployeesRestAPITest (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for EmployeesRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for EmployeesRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_EmployeesRestAPISuite');
+function tableData_EmployeesRestAPISuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'checkResposeBody_getSingleBook')
+data.setCell(0, 2, 'com.LibraryAPI.testCases.TC_002_GetSingleBook')
+data.setCell(0, 3, 660);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkResposeBody_getAllBooks')
+data.setCell(1, 2, 'com.LibraryAPI.testCases.TC_001_GetAllBooks')
+data.setCell(1, 3, 591);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateAddedBook_addBook')
+data.setCell(2, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(2, 3, 315);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateUpdatedBook_updateBook')
+data.setCell(3, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(3, 3, 294);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkResposeBody_addBook')
+data.setCell(4, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(4, 3, 71);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'checkResposeBody_updateBook')
+data.setCell(5, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(5, 3, 36);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'checkResposeBody_deleteBook')
+data.setCell(6, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(6, 3, 20);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateDeletedBook_deleteBook')
+data.setCell(7, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(7, 3, 16);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkStatusLine_updateBook')
+data.setCell(8, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(8, 3, 14);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'checkContentType_getAllBooks')
+data.setCell(9, 2, 'com.LibraryAPI.testCases.TC_001_GetAllBooks')
+data.setCell(9, 3, 10);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'checkContentType_getSingleBook')
+data.setCell(10, 2, 'com.LibraryAPI.testCases.TC_002_GetSingleBook')
+data.setCell(10, 3, 6);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'checkserverType_getSingleBook')
+data.setCell(11, 2, 'com.LibraryAPI.testCases.TC_002_GetSingleBook')
+data.setCell(11, 3, 4);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'checkResponseTime_getSingleBook')
+data.setCell(12, 2, 'com.LibraryAPI.testCases.TC_002_GetSingleBook')
+data.setCell(12, 3, 4);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'checkStatusLine_getSingleBook')
+data.setCell(13, 2, 'com.LibraryAPI.testCases.TC_002_GetSingleBook')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkserverType_updateBook')
+data.setCell(14, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(14, 3, 3);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkStatusLine_addBook')
+data.setCell(15, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(15, 3, 3);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'checkContentType_addBook')
+data.setCell(16, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'checkStatusCode_addBook')
+data.setCell(17, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(17, 3, 2);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'checkStatusCode_getSingleBook')
+data.setCell(18, 2, 'com.LibraryAPI.testCases.TC_002_GetSingleBook')
+data.setCell(18, 3, 2);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'checkserverType_addBook')
+data.setCell(19, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(19, 3, 2);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'checkserverType_deleteBook')
+data.setCell(20, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'checkStatusCode_updateBook')
+data.setCell(21, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(21, 3, 2);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'checkStatusLine_getAllBooks')
+data.setCell(22, 2, 'com.LibraryAPI.testCases.TC_001_GetAllBooks')
+data.setCell(22, 3, 2);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'checkResponseTime_updateBook')
+data.setCell(23, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(23, 3, 2);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'checkStatusCode_deleteBook')
+data.setCell(24, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(24, 3, 2);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'checkResponseTime_getAllBooks')
+data.setCell(25, 2, 'com.LibraryAPI.testCases.TC_001_GetAllBooks')
+data.setCell(25, 3, 2);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'checkResponseTime_addBook')
+data.setCell(26, 2, 'com.LibraryAPI.testCases.TC_003_AddBook')
+data.setCell(26, 3, 2);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'checkserverType_getAllBooks')
+data.setCell(27, 2, 'com.LibraryAPI.testCases.TC_001_GetAllBooks')
+data.setCell(27, 3, 1);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'checkContentType_updateBook')
+data.setCell(28, 2, 'com.LibraryAPI.testCases.TC_004_UpdateBook')
+data.setCell(28, 3, 1);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'checkStatusCode_getAllBooks')
+data.setCell(29, 2, 'com.LibraryAPI.testCases.TC_001_GetAllBooks')
+data.setCell(29, 3, 1);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'checkContentType_deleteBook')
+data.setCell(30, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(30, 3, 1);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'checkStatusLine_deleteBook')
+data.setCell(31, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(31, 3, 1);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'checkResponseTime_deleteBook')
+data.setCell(32, 2, 'com.LibraryAPI.testCases.TC_005_DeleteBook')
+data.setCell(32, 3, 1);
+window.suiteTableData['EmployeesRestAPISuite']= { tableData: data, tableDiv: 'times-div-EmployeesRestAPISuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
+              <div id="times-div-EmployeesRestAPISuite">
+              </div> <!-- times-div-EmployeesRestAPISuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for EmployeesRestAPISuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-EmployeesRestAPISuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LibraryAPI.testCases.TC_001_GetAllBooks</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">getAllBooks</span>
+                <span class="method-start">73 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentType_getAllBooks</span>
+                <span class="method-start">2539 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime_getAllBooks</span>
+                <span class="method-start">2569 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResposeBody_getAllBooks</span>
+                <span class="method-start">2573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode_getAllBooks</span>
+                <span class="method-start">3166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine_getAllBooks</span>
+                <span class="method-start">3169 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType_getAllBooks</span>
+                <span class="method-start">3172 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3175 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LibraryAPI.testCases.TC_002_GetSingleBook</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3176 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">getSingleBook</span>
+                <span class="method-start">3178 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkContentType_getSingleBook</span>
+                <span class="method-start">3418 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime_getSingleBook</span>
+                <span class="method-start">3428 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResposeBody_getSingleBook</span>
+                <span class="method-start">3435 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode_getSingleBook</span>
+                <span class="method-start">4098 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine_getSingleBook</span>
+                <span class="method-start">4102 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType_getSingleBook</span>
+                <span class="method-start">4108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4114 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LibraryAPI.testCases.TC_003_AddBook</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4115 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">addBook</span>
+                <span class="method-start">4119 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode_addBook</span>
+                <span class="method-start">4476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResposeBody_addBook</span>
+                <span class="method-start">4481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateAddedBook_addBook</span>
+                <span class="method-start">4555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime_addBook</span>
+                <span class="method-start">4872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType_addBook</span>
+                <span class="method-start">4876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType_addBook</span>
+                <span class="method-start">4879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine_addBook</span>
+                <span class="method-start">4882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4887 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LibraryAPI.testCases.TC_004_UpdateBook</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4887 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">updateBook</span>
+                <span class="method-start">4891 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode_updateBook</span>
+                <span class="method-start">5121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResposeBody_updateBook</span>
+                <span class="method-start">5125 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUpdatedBook_updateBook</span>
+                <span class="method-start">5163 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime_updateBook</span>
+                <span class="method-start">5459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType_updateBook</span>
+                <span class="method-start">5464 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType_updateBook</span>
+                <span class="method-start">5467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine_updateBook</span>
+                <span class="method-start">5471 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5488 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.LibraryAPI.testCases.TC_005_DeleteBook</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5489 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">deleteBook</span>
+                <span class="method-start">5491 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">checkStatusCode_deleteBook</span>
+                <span class="method-start">6101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResposeBody_deleteBook</span>
+                <span class="method-start">6105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateDeletedBook_deleteBook</span>
+                <span class="method-start">6127 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkResponseTime_deleteBook</span>
+                <span class="method-start">6146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkContentType_deleteBook</span>
+                <span class="method-start">6149 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkserverType_deleteBook</span>
+                <span class="method-start">6151 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkStatusLine_deleteBook</span>
+                <span class="method-start">6155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6158 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
